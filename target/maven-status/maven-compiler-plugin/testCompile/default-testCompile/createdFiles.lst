@@ -1,0 +1,8 @@
+mikaels\clappy\ui\ClappyTestClass_UI.class
+mikaels\clappy\util\YamlReader.class
+mikaels\clappy\resources\DSLLibDesktop.class
+mikaels\clappy\baseclass\BaseClass.class
+mikaels\clappy\util\StringMatcher.class
+mikaels\clappy\baseclass\BaseUi.class
+mikaels\clappy\ClappyAdminTestClass.class
+mikaels\clappy\baseclass\AbstractClass.class

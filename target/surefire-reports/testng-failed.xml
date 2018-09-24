@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [clappySuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="campaignCreation(failed)" verbose="0">
+    <classes>
+      <class name="mikaels.clappy.ClappyAdminTestClass">
+        <methods>
+          <include name="Test17_Fill_Create_Client_Form"/>
+          <include name="beforeClass"/>
+          <include name="Test19_Verify_Create_Client_Success_Message"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- mikaels.clappy.ClappyAdminTestClass -->
+    </classes>
+  </test> <!-- campaignCreation(failed) -->
+</suite> <!-- Failed suite [clappySuite] -->
