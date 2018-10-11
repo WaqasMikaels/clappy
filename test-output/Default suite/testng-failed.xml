@@ -3,35 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mikaels.clappy.ClappyAdminTestClass">
+      <class name="mikaels.clappy.CreateEpisode">
         <methods>
-          <include name="Test17_Fill_Create_Client_Form"/>
-          <include name="Test20_Redirect_To_Client_Management"/>
-          <include name="Test18_Click_Create_Client"/>
-          <include name="Test21_Verify_Redirection_To_Modules_Management"/>
-          <include name="Test07_Create_New_Admin"/>
-          <include name="Test11_Verify_Create_Admin_Success_Message"/>
-          <include name="Test01_Fill_Login_Credentials"/>
-          <include name="Test12_Redirect_To_Client_Management"/>
-          <include name="Test03_Verify_Login"/>
-          <include name="Test13_Verify_Redirection_To_Client_Management"/>
-          <include name="Test19_Verify_Create_Client_Success_Message"/>
-          <include name="Test05_Verify_Redirection_To_Admin_Management"/>
-          <include name="Test23_Verify_6_Modules_Management_Modules"/>
-          <include name="Test10_Click_Create_Admin"/>
-          <include name="Test08_Verify_Redirection_To_Create_Admin_Form"/>
-          <include name="Test14_Verify_10_Client_Management_Elements"/>
-          <include name="Test22_Verify_3_Modules_Management_Elements"/>
-          <include name="Test15_Create_New_Client"/>
-          <include name="Test09_Fill_Create_Admin_Form"/>
-          <include name="Test16_Verify_Redirection_To_Create_Client_Form"/>
-          <include name="Test06_Verify_8_Admin_Management_Elements"/>
-          <include name="beforeClass"/>
-          <include name="Test02_Click_Login_Button"/>
-          <include name="Test04_Redirect_To_Admin_Management"/>
           <include name="afterClass"/>
+          <include name="Test11_Verify_Create_Show_Success_Message"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- mikaels.clappy.ClappyAdminTestClass -->
+      </class> <!-- mikaels.clappy.CreateEpisode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

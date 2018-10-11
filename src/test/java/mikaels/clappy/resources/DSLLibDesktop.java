@@ -31,7 +31,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import mikaels.clappy.ui.ClappyTestClass_UI;
-
+import mikaels.clappy.ui.CreateEpisode_UI;
+import mikaels.clappy.ui.CreateShow_UI;
 import mikaels.clappy.util.YamlReader;
 
 public class DSLLibDesktop {
@@ -56,6 +57,8 @@ public class DSLLibDesktop {
 	
 	
 	public ClappyTestClass_UI clappytestclass;
+	public CreateShow_UI createshow;
+	public CreateEpisode_UI createepisode;
 	
 	
 	public DSLLibDesktop() {
@@ -203,6 +206,8 @@ public class DSLLibDesktop {
 		
 		
 		clappytestclass = new ClappyTestClass_UI(driver);
+		createshow = new CreateShow_UI(driver);
+		createepisode = new CreateEpisode_UI(driver);
 	}
 
 	/**
